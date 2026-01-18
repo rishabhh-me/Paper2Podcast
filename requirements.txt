@@ -1,0 +1,8 @@
+gradio
+gradio_client
+pandas
+google-generativeai
+pypdf
+loguru
+promptic
+tenacity
