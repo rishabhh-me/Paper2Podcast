@@ -1,54 +1,51 @@
-# 🎙️ LumeCast: PDF to Podcast Converter
+# 🎙️ Paper2Podcast
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/tmleyncodes/LumeCast)
+Convert PDFs into podcast-style audio using AI.
 
-LumeCast is an innovative web application that transforms PDF documents into audio podcasts, making content consumption more accessible and convenient.
+Paper2Podcast transforms research papers, articles, and documents into
+listener-friendly audio summaries, making long-form content easy to consume
+on the go.
 
-## 🌟 Features
+---
 
-- PDF text extraction
-- High-quality text-to-speech conversion
-- User-friendly interface
-- Real-time processing
-- Instant audio playback
-- Support for various PDF formats
+## 🚀 Features
 
-## 🚀 Live Demo
+- Upload PDF documents
+- Generate podcast-style audio narration
+- Focused summaries based on user queries
+- Adjustable tone and length
+- Transcript generation
+- Clean Gradio-based UI
 
-Try out LumeCast here: [LumeCast on Hugging Face Spaces](https://huggingface.co/spaces/tmleyncodes/LumeCast)
+---
 
-## 💻 Technology Stack
+## 🧠 How It Works
+
+1. Upload a PDF file
+2. Optionally provide:
+   - A URL for context
+   - A specific question or topic
+3. The AI model:
+   - Extracts text
+   - Summarizes key content
+   - Converts it into natural-sounding speech
+4. Audio and transcript are returned to the user
+
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - Gradio
-- Hugging Face Transformers
-- PyPDF2
-- Text-to-Speech Pipeline
+- Hugging Face (remote inference)
+- Generative AI models
 
-## 🎯 Use Cases
+---
 
-- Converting academic papers into audio format
-- Making documents accessible for visually impaired users
-- Multi-tasking while consuming content
-- Learning on the go
-- Converting articles into podcast format
+## ▶️ Run Locally
 
-## 🛠️ Local Development
-
-1. Clone the repository
-2. Install dependencies:
 ```bash
+git clone https://github.com/rishabhh-me/Paper2Podcast.git
+cd Paper2Podcast
 pip install -r requirements.txt
-```
-3. Run the application:
-```bash
 python podcast_app.py
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
